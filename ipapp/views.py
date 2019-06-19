@@ -5,8 +5,11 @@ from ipapp.lib.qqwry import qqwry
 # Create your views here.
 
 def index(request):
+    #print(request.META)
+    #print(request)
     # print(request.__dict__)
-    ip = request.META.get('REMOTE_ADDR')
+    #ip = request.META.get('REMOTE_ADDR')
+    ip = request.META.get('HTTP_X_FORWARDED_FOR')
     czip = qqwry.CzIp()
     str = czip.get_addr_by_ip(ip).split()
 
@@ -34,8 +37,9 @@ def index(request):
 
 
 def getip(request):
-    msg = request.META.get('REMOTE_ADDR')
-    return HttpResponse(msg + '\n')
+    ip = request.META.get('REMOTE_ADDR')
+    ip = request.META.get('HTTP_X_FORWARDED_FOR')
+    return HttpResponse(ip + '\n')
 
 
 def seach(request, ip):
