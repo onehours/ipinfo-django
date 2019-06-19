@@ -8,9 +8,19 @@
 
 #### 软件架构
 软件架构说明
-python manage.py runserver 0.0.0.0:80
 
-**python manage.py runserver 0.0.0.0:8080**
+```shell
+#django版本
+pip install django==1.11.18
+
+# 依赖
+pip install ipip-ipdb
+
+#运行方式
+python manage.py runserver 0.0.0.0:8080
+```
+
+****
 
 
 #### 码云特技
