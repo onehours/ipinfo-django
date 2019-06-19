@@ -8,7 +8,9 @@
 
 #### 软件架构
 软件架构说明
-pip install django==1.11.18
+python manage.py runserver 0.0.0.0:80
+
+**python manage.py runserver 0.0.0.0:8080**
 
 
 #### 码云特技
