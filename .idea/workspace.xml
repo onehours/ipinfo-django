@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77195968-89e0-4973-82d5-202abcba1584" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipapp/lib/ipdb-python/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/ipdb/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/ipdb/base_station.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/ipdb/city.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/ipdb/database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/ipdb/district.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/ipdb/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/ipdb/idc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python/ipdb/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipdb-python" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,23 +50,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="304">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipapp/lib/ipdb-python/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -165,7 +145,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ipapp/lib/ipdb-python" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -207,17 +187,13 @@
             <path>
               <item name="ipinfo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ipinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="ipinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="ipapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ipinfo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ipinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ipinfo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ipinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="ipapp" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,23 +393,23 @@
       <workItem from="1560766423470" duration="256000" />
       <workItem from="1560766711033" duration="2944000" />
       <workItem from="1560769722546" duration="1363000" />
-      <workItem from="1560924401943" duration="7026000" />
+      <workItem from="1560924401943" duration="7692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11761000" />
+    <option name="totallyTimeSpent" value="12427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23371105" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23371105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -649,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="304">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
