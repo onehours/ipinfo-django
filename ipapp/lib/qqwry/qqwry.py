@@ -10,6 +10,7 @@ import os
 localdir = os.path.dirname(os.path.abspath(__file__))
 filepath = os.path.join(localdir, 'qqwry.dat')
 
+
 class CzIp:
     def __init__(self, db_file=filepath):
         self.f_db = open(db_file, "rb")
@@ -190,10 +191,27 @@ class CzIp:
         (a, b) = struct.unpack('HB', bs)
         return (b << 16) + a
 
+    def getip(self, ip):
+        data_list = self.get_addr_by_ip(ip).split()
+
+        city = data_list[0]
+        isp = data_list[1]
+
+        data_dict = {
+            'city': city,
+            'isp': isp
+        }
+
+        return data_dict
+
 
 if __name__ == '__main__':
     cz = CzIp()
-    print(cz.get_version())
-    ip = '120.27.22.91'
-    print(cz.get_ip_range(ip))
-    print(cz.get_addr_by_ip(ip))
+    # print(cz.get_version())
+    ip = '107.182.21.166'
+    # print(cz.get_ip_range(ip))
+    # print(cz.get_addr_by_ip(ip))
+    testip = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'iplist.txt')
+    with open(testip) as f:
+        for i in f:
+            print(cz.getip(i))
