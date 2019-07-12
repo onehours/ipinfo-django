@@ -6,7 +6,6 @@ from ipapp.lib.ip2region import ip2
 def index(request):
     # ip = request.META.get('REMOTE_ADDR')
     ip = request.META.get('HTTP_X_FORWARDED_FOR')
-    ip = '119.44.50.1'
 
     ip_dict = ip2.ip2region(ip)
     print(ip_dict)
