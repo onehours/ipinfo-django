@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77195968-89e0-4973-82d5-202abcba1584" name="Default Changelist" comment="优化">
-      <change afterPath="$PROJECT_DIR$/ipapp/lib/ip2region/ip2region.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipip/17monipdb.datx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipip/getipip.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipapp/lib/ipip/getipip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/ipip/ipipfree.ipdb" beforeDir="false" afterPath="$PROJECT_DIR$/ipapp/lib/ipip/ipipfree.ipdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/qqwry/qqwry.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ipapp/lib/qqwry/qqwry.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipapp/lib/qqwry/qqwry.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipapp/lib/qqwry/qqwry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ipapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="263">
+              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipapp/lib/ip2region/ip2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -63,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ipapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="114">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -75,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ipapp/lib/qqwry/qqwry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="216" column="30" lean-forward="true" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+            <state relative-caret-position="4066">
+              <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
               <folding>
                 <element signature="e#69#82#0" expanded="true" />
               </folding>
@@ -87,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ipapp/lib/ipip/getipip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="950">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#44#83#0" expanded="true" />
               </folding>
@@ -126,14 +128,15 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ipapp/lib/ip2region/ip2.py" />
         <option value="$PROJECT_DIR$/ipapp/lib/ipip/getipip.py" />
+        <option value="$PROJECT_DIR$/static/styles.min.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/ipapp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="312" />
+    <option name="y" value="50" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
@@ -202,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.qqwry">
+  <component name="RunManager" selected="Django server.ipinfo">
     <configuration name="getip (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ipinfo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,22 +377,23 @@
       <workItem from="1562548387908" duration="5000" />
       <workItem from="1562548576258" duration="18000" />
       <workItem from="1562908548642" duration="11059000" />
+      <workItem from="1562921280954" duration="493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23644000" />
+    <option name="totallyTimeSpent" value="24137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27815014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13605899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35055867" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35055867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39664805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,16 +518,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipapp/lib/ip2region/testSearcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="e#130#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ipapp/lib/ip2region/testSearcher.py" />
     <entry file="file://$PROJECT_DIR$/ipapp/lib/iplist.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -531,16 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipapp/lib/qqwry/getip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ipapp/lib/qqwry/getip.py" />
     <entry file="file://$PROJECT_DIR$/ipapp/lib/ip2region/ip2Region.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -552,16 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipapp/lib/ip2region/ip2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,37 +565,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipapp/lib/ipip/getipip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#44#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ipapp/lib/qqwry/qqwry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="216" column="30" lean-forward="true" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+        <state relative-caret-position="4066">
+          <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
           <folding>
             <element signature="e#69#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ipapp/lib/ipip/getipip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#44#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipapp/lib/ip2region/ip2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/styles.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ipapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="114">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
