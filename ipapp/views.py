@@ -35,7 +35,11 @@ def index(request):
 def getip(request):
     ip = request.META.get('REMOTE_ADDR')
     ip = request.META.get('HTTP_X_FORWARDED_FOR')
-    return HttpResponse(ip + '\n')
+    ip_dict = ip2.ip2region(ip)
+    czip = qqwry.CzIp()
+    ip_dict2 = czip.getip(ip)
+    msg = f"{ip}  {ip_dict2['city']}  {ip_dict2['isp']}"
+    return HttpResponse(msg + "\n")
 
 
 def seach(request, ip):
