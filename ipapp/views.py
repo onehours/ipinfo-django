@@ -35,6 +35,10 @@ def index(request):
 def getip(request):
     ip = request.META.get('REMOTE_ADDR')
     ip = request.META.get('HTTP_X_FORWARDED_FOR')
+    if not ip:
+        ip = '223.5.5.5'
+    if ',' in ip:
+        ip = ip.split(',')[0]
     ip_dict = ip2.ip2region(ip)
     czip = qqwry.CzIp()
     ip_dict2 = czip.getip(ip)
